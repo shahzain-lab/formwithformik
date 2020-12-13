@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme: Theme) =>
       textAlign: 'center',
       color: theme.palette.text.secondary,
       borderRadius: "2rem",
-      ['@media(min-width: 780px)'] : {
+      [theme.breakpoints.up('lg')] : {
         width: '60%',
         marginLeft: "20%"
       }
