@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme: Theme) =>
     svg:{
       position: 'absolute',
       width: '25rem',
-      ['@media(max-width: 768px)']: {
+      [theme.breakpoints.down('sm')]: {
         visibility:'hidden'
       }
     }
